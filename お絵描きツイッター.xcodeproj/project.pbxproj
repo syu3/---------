@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BCA720C19723F5D00D52114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA720B19723F5D00D52114 /* Foundation.framework */; };
+		4BCA720E19723F5D00D52114 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA720D19723F5D00D52114 /* CoreGraphics.framework */; };
+		4BCA721019723F5D00D52114 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA720F19723F5D00D52114 /* UIKit.framework */; };
+		4BCA721619723F5D00D52114 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA721419723F5D00D52114 /* InfoPlist.strings */; };
+		4BCA721819723F5D00D52114 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA721719723F5D00D52114 /* main.m */; };
+		4BCA721C19723F5D00D52114 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA721B19723F5D00D52114 /* AppDelegate.m */; };
+		4BCA721F19723F5D00D52114 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA721D19723F5D00D52114 /* Main.storyboard */; };
+		4BCA722219723F5D00D52114 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA722119723F5D00D52114 /* ViewController.m */; };
+		4BCA722419723F5D00D52114 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA722319723F5D00D52114 /* Images.xcassets */; };
+		4BCA722B19723F5D00D52114 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA722A19723F5D00D52114 /* XCTest.framework */; };
+		4BCA722C19723F5D00D52114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA720B19723F5D00D52114 /* Foundation.framework */; };
+		4BCA722D19723F5D00D52114 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA720F19723F5D00D52114 /* UIKit.framework */; };
+		4BCA723519723F5D00D52114 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA723319723F5D00D52114 /* InfoPlist.strings */; };
+		4BCA723719723F5D00D52114 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCA723619723F5D00D52114 /* _________Tests.m */; };
+		4BCA727419723FAB00D52114 /* スクリーンショット 2014-07-13 12.54.09.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724019723FAB00D52114 /* スクリーンショット 2014-07-13 12.54.09.png */; };
+		4BCA727519723FAB00D52114 /* スクリーンショット 2014-07-12 20.03.27.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724119723FAB00D52114 /* スクリーンショット 2014-07-12 20.03.27.png */; };
+		4BCA727619723FAB00D52114 /* sutoraipu.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724219723FAB00D52114 /* sutoraipu.png */; };
+		4BCA727719723FAB00D52114 /* ゾウイラスト.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724319723FAB00D52114 /* ゾウイラスト.png */; };
+		4BCA727819723FAB00D52114 /* Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724419723FAB00D52114 /* Button.png */; };
+		4BCA727919723FAB00D52114 /* スクリーンショット 2014-07-13 12.50.53.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724519723FAB00D52114 /* スクリーンショット 2014-07-13 12.50.53.png */; };
+		4BCA727A19723FAB00D52114 /* ライオン　顔.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724619723FAB00D52114 /* ライオン　顔.png */; };
+		4BCA727B19723FAB00D52114 /* スクリーンショット 2014-07-12 13.23.08.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724719723FAB00D52114 /* スクリーンショット 2014-07-12 13.23.08.png */; };
+		4BCA727C19723FAB00D52114 /* スクリーンショット 2014-07-12 11.07.56.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724819723FAB00D52114 /* スクリーンショット 2014-07-12 11.07.56.png */; };
+		4BCA727D19723FAB00D52114 /* Untitled.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724919723FAB00D52114 /* Untitled.png */; };
+		4BCA727E19723FAB00D52114 /* ゾウ22.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724A19723FAB00D52114 /* ゾウ22.png */; };
+		4BCA727F19723FAB00D52114 /* haikei7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724B19723FAB00D52114 /* haikei7.png */; };
+		4BCA728119723FAB00D52114 /* hana.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724D19723FAB00D52114 /* hana.png */; };
+		4BCA728219723FAB00D52114 /* test6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724E19723FAB00D52114 /* test6.png */; };
+		4BCA728319723FAB00D52114 /* スクリーンショット 2014-07-12 11.20.31.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA724F19723FAB00D52114 /* スクリーンショット 2014-07-12 11.20.31.png */; };
+		4BCA728419723FAB00D52114 /* hikouki.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725019723FAB00D52114 /* hikouki.png */; };
+		4BCA728519723FAB00D52114 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725119723FAB00D52114 /* Untitled-1.png */; };
+		4BCA728719723FAB00D52114 /* a.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725319723FAB00D52114 /* a.png */; };
+		4BCA728819723FAB00D52114 /* siro.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725419723FAB00D52114 /* siro.png */; };
+		4BCA728919723FAB00D52114 /* hosi.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725519723FAB00D52114 /* hosi.png */; };
+		4BCA728A19723FAB00D52114 /* haikei2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725619723FAB00D52114 /* haikei2.png */; };
+		4BCA728B19723FAB00D52114 /* hai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725719723FAB00D52114 /* hai.jpg */; };
+		4BCA728C19723FAB00D52114 /* haikei4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725819723FAB00D52114 /* haikei4.png */; };
+		4BCA728D19723FAB00D52114 /* green.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725919723FAB00D52114 /* green.jpeg */; };
+		4BCA728E19723FAB00D52114 /* ih.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725A19723FAB00D52114 /* ih.jpg */; };
+		4BCA728F19723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.54.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725B19723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.54.png */; };
+		4BCA729019723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.32.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725C19723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.32.png */; };
+		4BCA729119723FAB00D52114 /* ライオン全身.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725D19723FAB00D52114 /* ライオン全身.png */; };
+		4BCA729219723FAB00D52114 /* nex1t.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725E19723FAB00D52114 /* nex1t.png */; };
+		4BCA729319723FAB00D52114 /* haike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA725F19723FAB00D52114 /* haike.jpg */; };
+		4BCA729419723FAB00D52114 /* ha.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726019723FAB00D52114 /* ha.jpg */; };
+		4BCA729519723FAB00D52114 /* haikei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726119723FAB00D52114 /* haikei.jpg */; };
+		4BCA729619723FAB00D52114 /* back2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726219723FAB00D52114 /* back2.png */; };
+		4BCA729719723FAB00D52114 /* next2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726319723FAB00D52114 /* next2.png */; };
+		4BCA729819723FAB00D52114 /* ライオン　顔１.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726419723FAB00D52114 /* ライオン　顔１.png */; };
+		4BCA729919723FAB00D52114 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726519723FAB00D52114 /* back.png */; };
+		4BCA729A19723FAB00D52114 /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726619723FAB00D52114 /* twitter.jpg */; };
+		4BCA729B19723FAB00D52114 /* test4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726719723FAB00D52114 /* test4.png */; };
+		4BCA729C19723FAB00D52114 /* test5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726819723FAB00D52114 /* test5.png */; };
+		4BCA729D19723FAB00D52114 /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726919723FAB00D52114 /* test3.png */; };
+		4BCA729E19723FAB00D52114 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726A19723FAB00D52114 /* test2.png */; };
+		4BCA729F19723FAB00D52114 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726B19723FAB00D52114 /* test.png */; };
+		4BCA72A019723FAB00D52114 /* 雪だるま全体１.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726C19723FAB00D52114 /* 雪だるま全体１.jpg */; };
+		4BCA72A119723FAB00D52114 /* 雪だるま 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726D19723FAB00D52114 /* 雪だるま 2.png */; };
+		4BCA72A219723FAB00D52114 /* 雪だるま 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726E19723FAB00D52114 /* 雪だるま 3.png */; };
+		4BCA72A319723FAB00D52114 /* 雪だるま 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726F19723FAB00D52114 /* 雪だるま 4.jpg */; };
+		4BCA72A419723FAB00D52114 /* 雪だるま 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA727019723FAB00D52114 /* 雪だるま 5.png */; };
+		4BCA72A519723FAB00D52114 /* 雪だるま 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA727119723FAB00D52114 /* 雪だるま 6.png */; };
+		4BCA72A619723FAB00D52114 /* 雪だるま 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA727219723FAB00D52114 /* 雪だるま 7.png */; };
+		4BCA72A719723FAB00D52114 /* 雪だるま.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA727319723FAB00D52114 /* 雪だるま.png */; };
+		4BCFC078197284B8005F3BDC /* irautoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCFC077197284B8005F3BDC /* irautoViewController.m */; };
+		4BCFC07B197284CF005F3BDC /* hyoujouViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BCFC07A197284CF005F3BDC /* hyoujouViewController.m */; };
+		4BCFC07E19728924005F3BDC /* スクリーンショット 2014-07-13 18.27.38.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFC07C19728924005F3BDC /* スクリーンショット 2014-07-13 18.27.38.png */; };
+		4BCFC07F19728924005F3BDC /* スクリーンショット 2014-07-13 18.29.30.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFC07D19728924005F3BDC /* スクリーンショット 2014-07-13 18.29.30.png */; };
+		4BCFC08219728B3C005F3BDC /* 600.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFC08019728B3C005F3BDC /* 600.png */; };
+		4BCFC08319728B3C005F3BDC /* hosi 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCFC08119728B3C005F3BDC /* hosi 2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4BCA722E19723F5D00D52114 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4BCA720019723F5D00D52114 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BCA720719723F5D00D52114;
+			remoteInfo = "お絵描きツイッター";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BCA720819723F5D00D52114 /* お絵描きツイッター.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "お絵描きツイッター.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCA720B19723F5D00D52114 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4BCA720D19723F5D00D52114 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4BCA720F19723F5D00D52114 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4BCA721319723F5D00D52114 /* お絵描きツイッター-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "お絵描きツイッター-Info.plist"; sourceTree = "<group>"; };
+		4BCA721519723F5D00D52114 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BCA721719723F5D00D52114 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4BCA721919723F5D00D52114 /* お絵描きツイッター-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "お絵描きツイッター-Prefix.pch"; sourceTree = "<group>"; };
+		4BCA721A19723F5D00D52114 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4BCA721B19723F5D00D52114 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4BCA721E19723F5D00D52114 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BCA722019723F5D00D52114 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4BCA722119723F5D00D52114 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4BCA722319723F5D00D52114 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4BCA722919723F5D00D52114 /* お絵描きツイッターTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "お絵描きツイッターTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BCA722A19723F5D00D52114 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4BCA723219723F5D00D52114 /* お絵描きツイッターTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "お絵描きツイッターTests-Info.plist"; sourceTree = "<group>"; };
+		4BCA723419723F5D00D52114 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4BCA723619723F5D00D52114 /* _________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________Tests.m"; sourceTree = "<group>"; };
+		4BCA724019723FAB00D52114 /* スクリーンショット 2014-07-13 12.54.09.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-13 12.54.09.png"; sourceTree = "<group>"; };
+		4BCA724119723FAB00D52114 /* スクリーンショット 2014-07-12 20.03.27.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-12 20.03.27.png"; sourceTree = "<group>"; };
+		4BCA724219723FAB00D52114 /* sutoraipu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sutoraipu.png; sourceTree = "<group>"; };
+		4BCA724319723FAB00D52114 /* ゾウイラスト.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゾウイラスト.png"; sourceTree = "<group>"; };
+		4BCA724419723FAB00D52114 /* Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button.png; sourceTree = "<group>"; };
+		4BCA724519723FAB00D52114 /* スクリーンショット 2014-07-13 12.50.53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-13 12.50.53.png"; sourceTree = "<group>"; };
+		4BCA724619723FAB00D52114 /* ライオン　顔.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ライオン　顔.png"; sourceTree = "<group>"; };
+		4BCA724719723FAB00D52114 /* スクリーンショット 2014-07-12 13.23.08.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-12 13.23.08.png"; sourceTree = "<group>"; };
+		4BCA724819723FAB00D52114 /* スクリーンショット 2014-07-12 11.07.56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-12 11.07.56.png"; sourceTree = "<group>"; };
+		4BCA724919723FAB00D52114 /* Untitled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Untitled.png; sourceTree = "<group>"; };
+		4BCA724A19723FAB00D52114 /* ゾウ22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ゾウ22.png"; sourceTree = "<group>"; };
+		4BCA724B19723FAB00D52114 /* haikei7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei7.png; sourceTree = "<group>"; };
+		4BCA724D19723FAB00D52114 /* hana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hana.png; sourceTree = "<group>"; };
+		4BCA724E19723FAB00D52114 /* test6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test6.png; sourceTree = "<group>"; };
+		4BCA724F19723FAB00D52114 /* スクリーンショット 2014-07-12 11.20.31.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-12 11.20.31.png"; sourceTree = "<group>"; };
+		4BCA725019723FAB00D52114 /* hikouki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hikouki.png; sourceTree = "<group>"; };
+		4BCA725119723FAB00D52114 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
+		4BCA725319723FAB00D52114 /* a.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a.png; sourceTree = "<group>"; };
+		4BCA725419723FAB00D52114 /* siro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = siro.png; sourceTree = "<group>"; };
+		4BCA725519723FAB00D52114 /* hosi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hosi.png; sourceTree = "<group>"; };
+		4BCA725619723FAB00D52114 /* haikei2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei2.png; sourceTree = "<group>"; };
+		4BCA725719723FAB00D52114 /* hai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hai.jpg; sourceTree = "<group>"; };
+		4BCA725819723FAB00D52114 /* haikei4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei4.png; sourceTree = "<group>"; };
+		4BCA725919723FAB00D52114 /* green.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpeg; sourceTree = "<group>"; };
+		4BCA725A19723FAB00D52114 /* ih.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ih.jpg; sourceTree = "<group>"; };
+		4BCA725B19723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.54.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-05 23.05.54.png"; sourceTree = "<group>"; };
+		4BCA725C19723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-05 23.05.32.png"; sourceTree = "<group>"; };
+		4BCA725D19723FAB00D52114 /* ライオン全身.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ライオン全身.png"; sourceTree = "<group>"; };
+		4BCA725E19723FAB00D52114 /* nex1t.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nex1t.png; sourceTree = "<group>"; };
+		4BCA725F19723FAB00D52114 /* haike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haike.jpg; sourceTree = "<group>"; };
+		4BCA726019723FAB00D52114 /* ha.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ha.jpg; sourceTree = "<group>"; };
+		4BCA726119723FAB00D52114 /* haikei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = haikei.jpg; sourceTree = "<group>"; };
+		4BCA726219723FAB00D52114 /* back2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back2.png; sourceTree = "<group>"; };
+		4BCA726319723FAB00D52114 /* next2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next2.png; sourceTree = "<group>"; };
+		4BCA726419723FAB00D52114 /* ライオン　顔１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ライオン　顔１.png"; sourceTree = "<group>"; };
+		4BCA726519723FAB00D52114 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		4BCA726619723FAB00D52114 /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpg; sourceTree = "<group>"; };
+		4BCA726719723FAB00D52114 /* test4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test4.png; sourceTree = "<group>"; };
+		4BCA726819723FAB00D52114 /* test5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test5.png; sourceTree = "<group>"; };
+		4BCA726919723FAB00D52114 /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test3.png; sourceTree = "<group>"; };
+		4BCA726A19723FAB00D52114 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
+		4BCA726B19723FAB00D52114 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		4BCA726C19723FAB00D52114 /* 雪だるま全体１.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雪だるま全体１.jpg"; sourceTree = "<group>"; };
+		4BCA726D19723FAB00D52114 /* 雪だるま 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪だるま 2.png"; sourceTree = "<group>"; };
+		4BCA726E19723FAB00D52114 /* 雪だるま 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪だるま 3.png"; sourceTree = "<group>"; };
+		4BCA726F19723FAB00D52114 /* 雪だるま 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雪だるま 4.jpg"; sourceTree = "<group>"; };
+		4BCA727019723FAB00D52114 /* 雪だるま 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪だるま 5.png"; sourceTree = "<group>"; };
+		4BCA727119723FAB00D52114 /* 雪だるま 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪だるま 6.png"; sourceTree = "<group>"; };
+		4BCA727219723FAB00D52114 /* 雪だるま 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪だるま 7.png"; sourceTree = "<group>"; };
+		4BCA727319723FAB00D52114 /* 雪だるま.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪だるま.png"; sourceTree = "<group>"; };
+		4BCFC076197284B8005F3BDC /* irautoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = irautoViewController.h; sourceTree = "<group>"; };
+		4BCFC077197284B8005F3BDC /* irautoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = irautoViewController.m; sourceTree = "<group>"; };
+		4BCFC079197284CF005F3BDC /* hyoujouViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hyoujouViewController.h; sourceTree = "<group>"; };
+		4BCFC07A197284CF005F3BDC /* hyoujouViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = hyoujouViewController.m; sourceTree = "<group>"; };
+		4BCFC07C19728924005F3BDC /* スクリーンショット 2014-07-13 18.27.38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-13 18.27.38.png"; sourceTree = "<group>"; };
+		4BCFC07D19728924005F3BDC /* スクリーンショット 2014-07-13 18.29.30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "スクリーンショット 2014-07-13 18.29.30.png"; sourceTree = "<group>"; };
+		4BCFC08019728B3C005F3BDC /* 600.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 600.png; sourceTree = "<group>"; };
+		4BCFC08119728B3C005F3BDC /* hosi 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hosi 2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BCA720519723F5D00D52114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCA720E19723F5D00D52114 /* CoreGraphics.framework in Frameworks */,
+				4BCA721019723F5D00D52114 /* UIKit.framework in Frameworks */,
+				4BCA720C19723F5D00D52114 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCA722619723F5D00D52114 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCA722B19723F5D00D52114 /* XCTest.framework in Frameworks */,
+				4BCA722D19723F5D00D52114 /* UIKit.framework in Frameworks */,
+				4BCA722C19723F5D00D52114 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BCA71FF19723F5D00D52114 = {
+			isa = PBXGroup;
+			children = (
+				4BCA721119723F5D00D52114 /* お絵描きツイッター */,
+				4BCA723019723F5D00D52114 /* お絵描きツイッターTests */,
+				4BCA720A19723F5D00D52114 /* Frameworks */,
+				4BCA720919723F5D00D52114 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BCA720919723F5D00D52114 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BCA720819723F5D00D52114 /* お絵描きツイッター.app */,
+				4BCA722919723F5D00D52114 /* お絵描きツイッターTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BCA720A19723F5D00D52114 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BCA720B19723F5D00D52114 /* Foundation.framework */,
+				4BCA720D19723F5D00D52114 /* CoreGraphics.framework */,
+				4BCA720F19723F5D00D52114 /* UIKit.framework */,
+				4BCA722A19723F5D00D52114 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BCA721119723F5D00D52114 /* お絵描きツイッター */ = {
+			isa = PBXGroup;
+			children = (
+				4BCA721A19723F5D00D52114 /* AppDelegate.h */,
+				4BCA721B19723F5D00D52114 /* AppDelegate.m */,
+				4BCA721D19723F5D00D52114 /* Main.storyboard */,
+				4BCFC076197284B8005F3BDC /* irautoViewController.h */,
+				4BCFC077197284B8005F3BDC /* irautoViewController.m */,
+				4BCA722019723F5D00D52114 /* ViewController.h */,
+				4BCA722119723F5D00D52114 /* ViewController.m */,
+				4BCFC079197284CF005F3BDC /* hyoujouViewController.h */,
+				4BCFC07A197284CF005F3BDC /* hyoujouViewController.m */,
+				4BCA722319723F5D00D52114 /* Images.xcassets */,
+				4BCA721219723F5D00D52114 /* Supporting Files */,
+			);
+			path = "お絵描きツイッター";
+			sourceTree = "<group>";
+		};
+		4BCA721219723F5D00D52114 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BCFC08019728B3C005F3BDC /* 600.png */,
+				4BCFC08119728B3C005F3BDC /* hosi 2.png */,
+				4BCFC07C19728924005F3BDC /* スクリーンショット 2014-07-13 18.27.38.png */,
+				4BCFC07D19728924005F3BDC /* スクリーンショット 2014-07-13 18.29.30.png */,
+				4BCA724019723FAB00D52114 /* スクリーンショット 2014-07-13 12.54.09.png */,
+				4BCA724119723FAB00D52114 /* スクリーンショット 2014-07-12 20.03.27.png */,
+				4BCA724219723FAB00D52114 /* sutoraipu.png */,
+				4BCA724319723FAB00D52114 /* ゾウイラスト.png */,
+				4BCA724419723FAB00D52114 /* Button.png */,
+				4BCA724519723FAB00D52114 /* スクリーンショット 2014-07-13 12.50.53.png */,
+				4BCA724619723FAB00D52114 /* ライオン　顔.png */,
+				4BCA724719723FAB00D52114 /* スクリーンショット 2014-07-12 13.23.08.png */,
+				4BCA724819723FAB00D52114 /* スクリーンショット 2014-07-12 11.07.56.png */,
+				4BCA724919723FAB00D52114 /* Untitled.png */,
+				4BCA724A19723FAB00D52114 /* ゾウ22.png */,
+				4BCA724B19723FAB00D52114 /* haikei7.png */,
+				4BCA724D19723FAB00D52114 /* hana.png */,
+				4BCA724E19723FAB00D52114 /* test6.png */,
+				4BCA724F19723FAB00D52114 /* スクリーンショット 2014-07-12 11.20.31.png */,
+				4BCA725019723FAB00D52114 /* hikouki.png */,
+				4BCA725119723FAB00D52114 /* Untitled-1.png */,
+				4BCA725319723FAB00D52114 /* a.png */,
+				4BCA725419723FAB00D52114 /* siro.png */,
+				4BCA725519723FAB00D52114 /* hosi.png */,
+				4BCA725619723FAB00D52114 /* haikei2.png */,
+				4BCA725719723FAB00D52114 /* hai.jpg */,
+				4BCA725819723FAB00D52114 /* haikei4.png */,
+				4BCA725919723FAB00D52114 /* green.jpeg */,
+				4BCA725A19723FAB00D52114 /* ih.jpg */,
+				4BCA725B19723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.54.png */,
+				4BCA725C19723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.32.png */,
+				4BCA725D19723FAB00D52114 /* ライオン全身.png */,
+				4BCA725E19723FAB00D52114 /* nex1t.png */,
+				4BCA725F19723FAB00D52114 /* haike.jpg */,
+				4BCA726019723FAB00D52114 /* ha.jpg */,
+				4BCA726119723FAB00D52114 /* haikei.jpg */,
+				4BCA726219723FAB00D52114 /* back2.png */,
+				4BCA726319723FAB00D52114 /* next2.png */,
+				4BCA726419723FAB00D52114 /* ライオン　顔１.png */,
+				4BCA726519723FAB00D52114 /* back.png */,
+				4BCA726619723FAB00D52114 /* twitter.jpg */,
+				4BCA726719723FAB00D52114 /* test4.png */,
+				4BCA726819723FAB00D52114 /* test5.png */,
+				4BCA726919723FAB00D52114 /* test3.png */,
+				4BCA726A19723FAB00D52114 /* test2.png */,
+				4BCA726B19723FAB00D52114 /* test.png */,
+				4BCA726C19723FAB00D52114 /* 雪だるま全体１.jpg */,
+				4BCA726D19723FAB00D52114 /* 雪だるま 2.png */,
+				4BCA726E19723FAB00D52114 /* 雪だるま 3.png */,
+				4BCA726F19723FAB00D52114 /* 雪だるま 4.jpg */,
+				4BCA727019723FAB00D52114 /* 雪だるま 5.png */,
+				4BCA727119723FAB00D52114 /* 雪だるま 6.png */,
+				4BCA727219723FAB00D52114 /* 雪だるま 7.png */,
+				4BCA727319723FAB00D52114 /* 雪だるま.png */,
+				4BCA721319723F5D00D52114 /* お絵描きツイッター-Info.plist */,
+				4BCA721419723F5D00D52114 /* InfoPlist.strings */,
+				4BCA721719723F5D00D52114 /* main.m */,
+				4BCA721919723F5D00D52114 /* お絵描きツイッター-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4BCA723019723F5D00D52114 /* お絵描きツイッターTests */ = {
+			isa = PBXGroup;
+			children = (
+				4BCA723619723F5D00D52114 /* _________Tests.m */,
+				4BCA723119723F5D00D52114 /* Supporting Files */,
+			);
+			path = "お絵描きツイッターTests";
+			sourceTree = "<group>";
+		};
+		4BCA723119723F5D00D52114 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BCA723219723F5D00D52114 /* お絵描きツイッターTests-Info.plist */,
+				4BCA723319723F5D00D52114 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BCA720719723F5D00D52114 /* お絵描きツイッター */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCA723A19723F5D00D52114 /* Build configuration list for PBXNativeTarget "お絵描きツイッター" */;
+			buildPhases = (
+				4BCA720419723F5D00D52114 /* Sources */,
+				4BCA720519723F5D00D52114 /* Frameworks */,
+				4BCA720619723F5D00D52114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "お絵描きツイッター";
+			productName = "お絵描きツイッター";
+			productReference = 4BCA720819723F5D00D52114 /* お絵描きツイッター.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BCA722819723F5D00D52114 /* お絵描きツイッターTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BCA723D19723F5D00D52114 /* Build configuration list for PBXNativeTarget "お絵描きツイッターTests" */;
+			buildPhases = (
+				4BCA722519723F5D00D52114 /* Sources */,
+				4BCA722619723F5D00D52114 /* Frameworks */,
+				4BCA722719723F5D00D52114 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BCA722F19723F5D00D52114 /* PBXTargetDependency */,
+			);
+			name = "お絵描きツイッターTests";
+			productName = "お絵描きツイッターTests";
+			productReference = 4BCA722919723F5D00D52114 /* お絵描きツイッターTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BCA720019723F5D00D52114 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mycompany;
+				TargetAttributes = {
+					4BCA722819723F5D00D52114 = {
+						TestTargetID = 4BCA720719723F5D00D52114;
+					};
+				};
+			};
+			buildConfigurationList = 4BCA720319723F5D00D52114 /* Build configuration list for PBXProject "お絵描きツイッター" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BCA71FF19723F5D00D52114;
+			productRefGroup = 4BCA720919723F5D00D52114 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BCA720719723F5D00D52114 /* お絵描きツイッター */,
+				4BCA722819723F5D00D52114 /* お絵描きツイッターTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BCA720619723F5D00D52114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCA72A319723FAB00D52114 /* 雪だるま 4.jpg in Resources */,
+				4BCFC07E19728924005F3BDC /* スクリーンショット 2014-07-13 18.27.38.png in Resources */,
+				4BCA728119723FAB00D52114 /* hana.png in Resources */,
+				4BCA728919723FAB00D52114 /* hosi.png in Resources */,
+				4BCA729019723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.32.png in Resources */,
+				4BCA728F19723FAB00D52114 /* スクリーンショット 2014-07-05 23.05.54.png in Resources */,
+				4BCA728D19723FAB00D52114 /* green.jpeg in Resources */,
+				4BCA727619723FAB00D52114 /* sutoraipu.png in Resources */,
+				4BCFC08219728B3C005F3BDC /* 600.png in Resources */,
+				4BCA729B19723FAB00D52114 /* test4.png in Resources */,
+				4BCA727919723FAB00D52114 /* スクリーンショット 2014-07-13 12.50.53.png in Resources */,
+				4BCA729519723FAB00D52114 /* haikei.jpg in Resources */,
+				4BCFC08319728B3C005F3BDC /* hosi 2.png in Resources */,
+				4BCA729219723FAB00D52114 /* nex1t.png in Resources */,
+				4BCA72A719723FAB00D52114 /* 雪だるま.png in Resources */,
+				4BCA729619723FAB00D52114 /* back2.png in Resources */,
+				4BCA727E19723FAB00D52114 /* ゾウ22.png in Resources */,
+				4BCA729819723FAB00D52114 /* ライオン　顔１.png in Resources */,
+				4BCA727D19723FAB00D52114 /* Untitled.png in Resources */,
+				4BCA729919723FAB00D52114 /* back.png in Resources */,
+				4BCA727B19723FAB00D52114 /* スクリーンショット 2014-07-12 13.23.08.png in Resources */,
+				4BCA72A019723FAB00D52114 /* 雪だるま全体１.jpg in Resources */,
+				4BCA728E19723FAB00D52114 /* ih.jpg in Resources */,
+				4BCA728819723FAB00D52114 /* siro.png in Resources */,
+				4BCA729119723FAB00D52114 /* ライオン全身.png in Resources */,
+				4BCA72A519723FAB00D52114 /* 雪だるま 6.png in Resources */,
+				4BCA72A119723FAB00D52114 /* 雪だるま 2.png in Resources */,
+				4BCA729719723FAB00D52114 /* next2.png in Resources */,
+				4BCA729A19723FAB00D52114 /* twitter.jpg in Resources */,
+				4BCA72A419723FAB00D52114 /* 雪だるま 5.png in Resources */,
+				4BCA728319723FAB00D52114 /* スクリーンショット 2014-07-12 11.20.31.png in Resources */,
+				4BCA727819723FAB00D52114 /* Button.png in Resources */,
+				4BCA72A619723FAB00D52114 /* 雪だるま 7.png in Resources */,
+				4BCA728B19723FAB00D52114 /* hai.jpg in Resources */,
+				4BCA728519723FAB00D52114 /* Untitled-1.png in Resources */,
+				4BCA728719723FAB00D52114 /* a.png in Resources */,
+				4BCA728219723FAB00D52114 /* test6.png in Resources */,
+				4BCA729419723FAB00D52114 /* ha.jpg in Resources */,
+				4BCA728419723FAB00D52114 /* hikouki.png in Resources */,
+				4BCA728C19723FAB00D52114 /* haikei4.png in Resources */,
+				4BCA722419723F5D00D52114 /* Images.xcassets in Resources */,
+				4BCA729C19723FAB00D52114 /* test5.png in Resources */,
+				4BCA727519723FAB00D52114 /* スクリーンショット 2014-07-12 20.03.27.png in Resources */,
+				4BCA727419723FAB00D52114 /* スクリーンショット 2014-07-13 12.54.09.png in Resources */,
+				4BCA729F19723FAB00D52114 /* test.png in Resources */,
+				4BCA728A19723FAB00D52114 /* haikei2.png in Resources */,
+				4BCA727C19723FAB00D52114 /* スクリーンショット 2014-07-12 11.07.56.png in Resources */,
+				4BCA727719723FAB00D52114 /* ゾウイラスト.png in Resources */,
+				4BCFC07F19728924005F3BDC /* スクリーンショット 2014-07-13 18.29.30.png in Resources */,
+				4BCA727F19723FAB00D52114 /* haikei7.png in Resources */,
+				4BCA727A19723FAB00D52114 /* ライオン　顔.png in Resources */,
+				4BCA721619723F5D00D52114 /* InfoPlist.strings in Resources */,
+				4BCA729E19723FAB00D52114 /* test2.png in Resources */,
+				4BCA729319723FAB00D52114 /* haike.jpg in Resources */,
+				4BCA721F19723F5D00D52114 /* Main.storyboard in Resources */,
+				4BCA72A219723FAB00D52114 /* 雪だるま 3.png in Resources */,
+				4BCA729D19723FAB00D52114 /* test3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCA722719723F5D00D52114 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCA723519723F5D00D52114 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BCA720419723F5D00D52114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCFC078197284B8005F3BDC /* irautoViewController.m in Sources */,
+				4BCA722219723F5D00D52114 /* ViewController.m in Sources */,
+				4BCFC07B197284CF005F3BDC /* hyoujouViewController.m in Sources */,
+				4BCA721C19723F5D00D52114 /* AppDelegate.m in Sources */,
+				4BCA721819723F5D00D52114 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BCA722519723F5D00D52114 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BCA723719723F5D00D52114 /* _________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BCA722F19723F5D00D52114 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BCA720719723F5D00D52114 /* お絵描きツイッター */;
+			targetProxy = 4BCA722E19723F5D00D52114 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4BCA721419723F5D00D52114 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCA721519723F5D00D52114 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4BCA721D19723F5D00D52114 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCA721E19723F5D00D52114 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BCA723319723F5D00D52114 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BCA723419723F5D00D52114 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BCA723819723F5D00D52114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4BCA723919723F5D00D52114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BCA723B19723F5D00D52114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "お絵描きツイッター/お絵描きツイッター-Prefix.pch";
+				INFOPLIST_FILE = "お絵描きツイッター/お絵描きツイッター-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4BCA723C19723F5D00D52114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "お絵描きツイッター/お絵描きツイッター-Prefix.pch";
+				INFOPLIST_FILE = "お絵描きツイッター/お絵描きツイッター-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4BCA723E19723F5D00D52114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/お絵描きツイッター.app/お絵描きツイッター";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "お絵描きツイッター/お絵描きツイッター-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "お絵描きツイッターTests/お絵描きツイッターTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4BCA723F19723F5D00D52114 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/お絵描きツイッター.app/お絵描きツイッター";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "お絵描きツイッター/お絵描きツイッター-Prefix.pch";
+				INFOPLIST_FILE = "お絵描きツイッターTests/お絵描きツイッターTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BCA720319723F5D00D52114 /* Build configuration list for PBXProject "お絵描きツイッター" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCA723819723F5D00D52114 /* Debug */,
+				4BCA723919723F5D00D52114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCA723A19723F5D00D52114 /* Build configuration list for PBXNativeTarget "お絵描きツイッター" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCA723B19723F5D00D52114 /* Debug */,
+				4BCA723C19723F5D00D52114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BCA723D19723F5D00D52114 /* Build configuration list for PBXNativeTarget "お絵描きツイッターTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BCA723E19723F5D00D52114 /* Debug */,
+				4BCA723F19723F5D00D52114 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BCA720019723F5D00D52114 /* Project object */;
+}
