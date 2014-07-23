@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="8U4-7O-I9R">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="xtJ-uc-cef">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -170,10 +170,10 @@
             </objects>
             <point key="canvasLocation" x="-641" y="276"/>
         </scene>
-        <!--View Controller-->
+        <!--Hyoujou View Controller-->
         <scene sceneID="xJm-rv-oyY">
             <objects>
-                <viewController id="GBo-e0-9wD" sceneMemberID="viewController">
+                <viewController id="GBo-e0-9wD" customClass="hyoujouViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uS3-Gs-VVE"/>
                         <viewControllerLayoutGuide type="bottom" id="egY-Nf-JrU"/>
@@ -208,6 +208,9 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="next" destination="GBo-e0-9wD" eventType="touchUpInside" id="tx2-4X-bXt"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="vk7-qP-udb">
                                 <rect key="frame" x="0.0" y="227" width="50" height="93"/>
@@ -228,84 +231,38 @@
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <connections>
+                        <outlet property="hyoujou1" destination="Wq5-8Q-MbC" id="e0x-an-1A1"/>
+                        <outlet property="hyoujou2" destination="AXD-pW-WJv" id="991-M0-jB2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M7K-cj-xY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-127" y="236"/>
+            <point key="canvasLocation" x="-120" y="276"/>
         </scene>
         <!--Irauto View Controller-->
-        <scene sceneID="jP0-Qa-9Ha">
+        <scene sceneID="Hqn-Fz-NE7">
             <objects>
-                <viewController id="8U4-7O-I9R" customClass="irautoViewController" sceneMemberID="viewController">
+                <viewController id="ujn-ZG-2Dw" customClass="irautoViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="K8Q-NM-6eb"/>
-                        <viewControllerLayoutGuide type="bottom" id="Hiq-x4-sBB"/>
+                        <viewControllerLayoutGuide type="top" id="OQk-ee-MVW"/>
+                        <viewControllerLayoutGuide type="bottom" id="N89-Df-hHM"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FFD-Uc-9dp">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                    <view key="view" contentMode="scaleToFill" id="2Ds-ok-WFI">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="600.png" translatesAutoresizingMaskIntoConstraints="NO" id="UNP-0d-gIA">
-                                <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hosi 2.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Af-rE-xr7">
-                                <rect key="frame" x="-201" y="-138" width="883" height="550"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ライオン全身.png" translatesAutoresizingMaskIntoConstraints="NO" id="3P4-Rf-RDp">
-                                <rect key="frame" x="-46" y="-241" width="328" height="653"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="スクリーンショット 2014-07-05 23.05.54.png" translatesAutoresizingMaskIntoConstraints="NO" id="E9n-4R-qWL">
-                                <rect key="frame" x="220" y="-153" width="260" height="653"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="back.png" translatesAutoresizingMaskIntoConstraints="NO" id="dN8-bH-7RS">
-                                <rect key="frame" x="5" y="227" width="50" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eAO-kj-xRv">
-                                <rect key="frame" x="5" y="227" width="50" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nex1t.png" translatesAutoresizingMaskIntoConstraints="NO" id="IhQ-R3-ie4">
-                                <rect key="frame" x="430" y="227" width="50" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6q-LB-il2">
-                                <rect key="frame" x="430" y="227" width="50" height="93"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="next" destination="8U4-7O-I9R" eventType="touchUpInside" id="fme-cw-Bu0"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
-                    <connections>
-                        <outlet property="irasuto1" destination="3P4-Rf-RDp" id="brT-dQ-kvu"/>
-                        <outlet property="irasuto2" destination="E9n-4R-qWL" id="xtW-WP-b61"/>
-                        <outlet property="next" destination="O6q-LB-il2" id="Oyb-wX-HO9"/>
-                    </connections>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="480"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qog-Lb-5ZH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vaY-rX-eJG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1189" y="276"/>
+            <point key="canvasLocation" x="-1007" y="251"/>
         </scene>
     </scenes>
     <resources>
-        <image name="600.png" width="600" height="600"/>
         <image name="back.png" width="64" height="64"/>
-        <image name="hosi 2.png" width="1000" height="1000"/>
         <image name="nex1t.png" width="64" height="64"/>
         <image name="sutoraipu.png" width="1000" height="1000"/>
         <image name="test.png" width="300" height="300"/>
@@ -315,10 +272,8 @@
         <image name="test5.png" width="300" height="300"/>
         <image name="test6.png" width="300" height="300"/>
         <image name="twitter.jpg" width="598" height="554"/>
-        <image name="スクリーンショット 2014-07-05 23.05.54.png" width="240" height="196"/>
         <image name="スクリーンショット 2014-07-12 20.03.27.png" width="1681" height="1050"/>
         <image name="スクリーンショット 2014-07-13 12.54.09.png" width="662" height="642"/>
-        <image name="ライオン全身.png" width="842" height="1169"/>
         <image name="雪だるま 2.png" width="442" height="369"/>
         <image name="雪だるま.png" width="442" height="370"/>
     </resources>

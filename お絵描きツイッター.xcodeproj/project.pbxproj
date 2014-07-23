@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B4FBC21197D44B100AF62B6 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FBC1B197D44B100AF62B6 /* 1.png */; };
+		4B4FBC22197D44B100AF62B6 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FBC1C197D44B100AF62B6 /* 2.png */; };
+		4B4FBC23197D44B100AF62B6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FBC1D197D44B100AF62B6 /* 3.png */; };
+		4B4FBC24197D44B100AF62B6 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FBC1E197D44B100AF62B6 /* 4.png */; };
+		4B4FBC25197D44B100AF62B6 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FBC1F197D44B100AF62B6 /* 5.png */; };
+		4B4FBC26197D44B100AF62B6 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B4FBC20197D44B100AF62B6 /* 6.png */; };
 		4BCA720C19723F5D00D52114 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA720B19723F5D00D52114 /* Foundation.framework */; };
 		4BCA720E19723F5D00D52114 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA720D19723F5D00D52114 /* CoreGraphics.framework */; };
 		4BCA721019723F5D00D52114 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BCA720F19723F5D00D52114 /* UIKit.framework */; };
@@ -58,11 +64,11 @@
 		4BCA729819723FAB00D52114 /* ライオン　顔１.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726419723FAB00D52114 /* ライオン　顔１.png */; };
 		4BCA729919723FAB00D52114 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726519723FAB00D52114 /* back.png */; };
 		4BCA729A19723FAB00D52114 /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726619723FAB00D52114 /* twitter.jpg */; };
-		4BCA729B19723FAB00D52114 /* test4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726719723FAB00D52114 /* test4.png */; };
-		4BCA729C19723FAB00D52114 /* test5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726819723FAB00D52114 /* test5.png */; };
-		4BCA729D19723FAB00D52114 /* test3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726919723FAB00D52114 /* test3.png */; };
-		4BCA729E19723FAB00D52114 /* test2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726A19723FAB00D52114 /* test2.png */; };
-		4BCA729F19723FAB00D52114 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726B19723FAB00D52114 /* test.png */; };
+		4BCA729B19723FAB00D52114 /* test4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726719723FAB00D52114 /* test4.PNG */; };
+		4BCA729C19723FAB00D52114 /* test5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726819723FAB00D52114 /* test5.JPG */; };
+		4BCA729D19723FAB00D52114 /* test3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726919723FAB00D52114 /* test3.JPG */; };
+		4BCA729E19723FAB00D52114 /* test2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726A19723FAB00D52114 /* test2.JPG */; };
+		4BCA729F19723FAB00D52114 /* test1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726B19723FAB00D52114 /* test1.PNG */; };
 		4BCA72A019723FAB00D52114 /* 雪だるま全体１.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726C19723FAB00D52114 /* 雪だるま全体１.jpg */; };
 		4BCA72A119723FAB00D52114 /* 雪だるま 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726D19723FAB00D52114 /* 雪だるま 2.png */; };
 		4BCA72A219723FAB00D52114 /* 雪だるま 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726E19723FAB00D52114 /* 雪だるま 3.png */; };
@@ -90,6 +96,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4B4FBC1B197D44B100AF62B6 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		4B4FBC1C197D44B100AF62B6 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		4B4FBC1D197D44B100AF62B6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		4B4FBC1E197D44B100AF62B6 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		4B4FBC1F197D44B100AF62B6 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		4B4FBC20197D44B100AF62B6 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		4BCA720819723F5D00D52114 /* お絵描きツイッター.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "お絵描きツイッター.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BCA720B19723F5D00D52114 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4BCA720D19723F5D00D52114 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,11 +158,11 @@
 		4BCA726419723FAB00D52114 /* ライオン　顔１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ライオン　顔１.png"; sourceTree = "<group>"; };
 		4BCA726519723FAB00D52114 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		4BCA726619723FAB00D52114 /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpg; sourceTree = "<group>"; };
-		4BCA726719723FAB00D52114 /* test4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test4.png; sourceTree = "<group>"; };
-		4BCA726819723FAB00D52114 /* test5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test5.png; sourceTree = "<group>"; };
-		4BCA726919723FAB00D52114 /* test3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test3.png; sourceTree = "<group>"; };
-		4BCA726A19723FAB00D52114 /* test2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test2.png; sourceTree = "<group>"; };
-		4BCA726B19723FAB00D52114 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		4BCA726719723FAB00D52114 /* test4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test4.PNG; sourceTree = "<group>"; };
+		4BCA726819723FAB00D52114 /* test5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test5.JPG; sourceTree = "<group>"; };
+		4BCA726919723FAB00D52114 /* test3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.JPG; sourceTree = "<group>"; };
+		4BCA726A19723FAB00D52114 /* test2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.JPG; sourceTree = "<group>"; };
+		4BCA726B19723FAB00D52114 /* test1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.PNG; sourceTree = "<group>"; };
 		4BCA726C19723FAB00D52114 /* 雪だるま全体１.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "雪だるま全体１.jpg"; sourceTree = "<group>"; };
 		4BCA726D19723FAB00D52114 /* 雪だるま 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪だるま 2.png"; sourceTree = "<group>"; };
 		4BCA726E19723FAB00D52114 /* 雪だるま 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "雪だるま 3.png"; sourceTree = "<group>"; };
@@ -244,6 +256,12 @@
 		4BCA721219723F5D00D52114 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4B4FBC1B197D44B100AF62B6 /* 1.png */,
+				4B4FBC1C197D44B100AF62B6 /* 2.png */,
+				4B4FBC1D197D44B100AF62B6 /* 3.png */,
+				4B4FBC1E197D44B100AF62B6 /* 4.png */,
+				4B4FBC1F197D44B100AF62B6 /* 5.png */,
+				4B4FBC20197D44B100AF62B6 /* 6.png */,
 				4BCFC08019728B3C005F3BDC /* 600.png */,
 				4BCFC08119728B3C005F3BDC /* hosi 2.png */,
 				4BCFC07C19728924005F3BDC /* スクリーンショット 2014-07-13 18.27.38.png */,
@@ -285,11 +303,11 @@
 				4BCA726419723FAB00D52114 /* ライオン　顔１.png */,
 				4BCA726519723FAB00D52114 /* back.png */,
 				4BCA726619723FAB00D52114 /* twitter.jpg */,
-				4BCA726719723FAB00D52114 /* test4.png */,
-				4BCA726819723FAB00D52114 /* test5.png */,
-				4BCA726919723FAB00D52114 /* test3.png */,
-				4BCA726A19723FAB00D52114 /* test2.png */,
-				4BCA726B19723FAB00D52114 /* test.png */,
+				4BCA726719723FAB00D52114 /* test4.PNG */,
+				4BCA726819723FAB00D52114 /* test5.JPG */,
+				4BCA726919723FAB00D52114 /* test3.JPG */,
+				4BCA726A19723FAB00D52114 /* test2.JPG */,
+				4BCA726B19723FAB00D52114 /* test1.PNG */,
 				4BCA726C19723FAB00D52114 /* 雪だるま全体１.jpg */,
 				4BCA726D19723FAB00D52114 /* 雪だるま 2.png */,
 				4BCA726E19723FAB00D52114 /* 雪だるま 3.png */,
@@ -409,23 +427,26 @@
 				4BCA728D19723FAB00D52114 /* green.jpeg in Resources */,
 				4BCA727619723FAB00D52114 /* sutoraipu.png in Resources */,
 				4BCFC08219728B3C005F3BDC /* 600.png in Resources */,
-				4BCA729B19723FAB00D52114 /* test4.png in Resources */,
+				4BCA729B19723FAB00D52114 /* test4.PNG in Resources */,
 				4BCA727919723FAB00D52114 /* スクリーンショット 2014-07-13 12.50.53.png in Resources */,
 				4BCA729519723FAB00D52114 /* haikei.jpg in Resources */,
 				4BCFC08319728B3C005F3BDC /* hosi 2.png in Resources */,
 				4BCA729219723FAB00D52114 /* nex1t.png in Resources */,
 				4BCA72A719723FAB00D52114 /* 雪だるま.png in Resources */,
+				4B4FBC23197D44B100AF62B6 /* 3.png in Resources */,
 				4BCA729619723FAB00D52114 /* back2.png in Resources */,
 				4BCA727E19723FAB00D52114 /* ゾウ22.png in Resources */,
 				4BCA729819723FAB00D52114 /* ライオン　顔１.png in Resources */,
 				4BCA727D19723FAB00D52114 /* Untitled.png in Resources */,
 				4BCA729919723FAB00D52114 /* back.png in Resources */,
+				4B4FBC26197D44B100AF62B6 /* 6.png in Resources */,
 				4BCA727B19723FAB00D52114 /* スクリーンショット 2014-07-12 13.23.08.png in Resources */,
 				4BCA72A019723FAB00D52114 /* 雪だるま全体１.jpg in Resources */,
 				4BCA728E19723FAB00D52114 /* ih.jpg in Resources */,
 				4BCA728819723FAB00D52114 /* siro.png in Resources */,
 				4BCA729119723FAB00D52114 /* ライオン全身.png in Resources */,
 				4BCA72A519723FAB00D52114 /* 雪だるま 6.png in Resources */,
+				4B4FBC24197D44B100AF62B6 /* 4.png in Resources */,
 				4BCA72A119723FAB00D52114 /* 雪だるま 2.png in Resources */,
 				4BCA729719723FAB00D52114 /* next2.png in Resources */,
 				4BCA729A19723FAB00D52114 /* twitter.jpg in Resources */,
@@ -433,6 +454,7 @@
 				4BCA728319723FAB00D52114 /* スクリーンショット 2014-07-12 11.20.31.png in Resources */,
 				4BCA727819723FAB00D52114 /* Button.png in Resources */,
 				4BCA72A619723FAB00D52114 /* 雪だるま 7.png in Resources */,
+				4B4FBC25197D44B100AF62B6 /* 5.png in Resources */,
 				4BCA728B19723FAB00D52114 /* hai.jpg in Resources */,
 				4BCA728519723FAB00D52114 /* Untitled-1.png in Resources */,
 				4BCA728719723FAB00D52114 /* a.png in Resources */,
@@ -441,22 +463,24 @@
 				4BCA728419723FAB00D52114 /* hikouki.png in Resources */,
 				4BCA728C19723FAB00D52114 /* haikei4.png in Resources */,
 				4BCA722419723F5D00D52114 /* Images.xcassets in Resources */,
-				4BCA729C19723FAB00D52114 /* test5.png in Resources */,
+				4BCA729C19723FAB00D52114 /* test5.JPG in Resources */,
 				4BCA727519723FAB00D52114 /* スクリーンショット 2014-07-12 20.03.27.png in Resources */,
 				4BCA727419723FAB00D52114 /* スクリーンショット 2014-07-13 12.54.09.png in Resources */,
-				4BCA729F19723FAB00D52114 /* test.png in Resources */,
+				4BCA729F19723FAB00D52114 /* test1.PNG in Resources */,
 				4BCA728A19723FAB00D52114 /* haikei2.png in Resources */,
 				4BCA727C19723FAB00D52114 /* スクリーンショット 2014-07-12 11.07.56.png in Resources */,
 				4BCA727719723FAB00D52114 /* ゾウイラスト.png in Resources */,
 				4BCFC07F19728924005F3BDC /* スクリーンショット 2014-07-13 18.29.30.png in Resources */,
 				4BCA727F19723FAB00D52114 /* haikei7.png in Resources */,
 				4BCA727A19723FAB00D52114 /* ライオン　顔.png in Resources */,
+				4B4FBC22197D44B100AF62B6 /* 2.png in Resources */,
+				4B4FBC21197D44B100AF62B6 /* 1.png in Resources */,
 				4BCA721619723F5D00D52114 /* InfoPlist.strings in Resources */,
-				4BCA729E19723FAB00D52114 /* test2.png in Resources */,
+				4BCA729E19723FAB00D52114 /* test2.JPG in Resources */,
 				4BCA729319723FAB00D52114 /* haike.jpg in Resources */,
 				4BCA721F19723F5D00D52114 /* Main.storyboard in Resources */,
 				4BCA72A219723FAB00D52114 /* 雪だるま 3.png in Resources */,
-				4BCA729D19723FAB00D52114 /* test3.png in Resources */,
+				4BCA729D19723FAB00D52114 /* test3.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

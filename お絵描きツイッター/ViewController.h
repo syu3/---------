@@ -9,13 +9,15 @@
 #import <UIKit/UIKit.h>
 #import <Accounts/Accounts.h>
 #import <Social/Social.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <QuartzCore/QuartzCore.h>
 @interface ViewController : UIViewController{
     UIImageView *canvas;
     CGPoint touchPoint;
     UIImage*capure;
+
     int rgb;
     //↓イラスト選択画面↓
-
     IBOutlet UIImageView*nurie;
 
 }

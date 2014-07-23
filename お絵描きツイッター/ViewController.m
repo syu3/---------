@@ -151,13 +151,28 @@
 
 
 -(IBAction)tuito{
+    UIImage *capturedImage = [UIImage imageNamed:@"スクリーンショット 2014-07-12 20.03.27.png"];
+
     
+    // 合成したいサイズを指定して、描画を開始します
+    UIGraphicsBeginImageContext(CGSizeMake(capturedImage.size.width, capturedImage.size.height));
+    
+    // まずは最下位レイヤーにしたいスクリーンショット画像をレンダリングします。
+    [capure drawAtPoint:CGPointMake(0, 0)];
+    
+    // 次にステータスバーをレンダリングします。
+    [capturedImage drawAtPoint:CGPointMake(-120, -110)];
+    
+    // 上記2枚を描画した内容をUIImageとして受け取ります。
+    UIImage*tweet = UIGraphicsGetImageFromCurrentImageContext();
+    
+    // 描画を終了します。
+    UIGraphicsEndImageContext();
     [self png];
     
     SLComposeViewController *twitter = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
-    
     [twitter setInitialText:@"こんな絵を描きました。"];
-    [twitter addImage:capure];
+    [twitter addImage:tweet];
     
     [self presentModalViewController:twitter animated:YES];
 }

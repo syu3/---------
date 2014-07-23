@@ -8,14 +8,7 @@
 
 #import "ViewController.h"
 
-@interface irautoViewController : ViewController{
-    IBOutlet UIImageView*irasuto1;
-    IBOutlet UIImageView*irasuto2;
-    IBOutlet UIButton *next;
-    int kaisuu;
-
-   
-
+@interface irautoViewController : ViewController<UIScrollViewDelegate> {
 }
--(IBAction)next;
+
 @end

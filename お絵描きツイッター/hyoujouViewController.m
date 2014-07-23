@@ -26,24 +26,36 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    number = 0;
+    hyoujou1.image = [UIImage imageNamed:@"雪だるま.png"];
+    hyoujou2.image = [UIImage imageNamed:@"雪だるま2.png"];
+    
+    
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(IBAction)next{
+    
+    number=number+1;
+    if (number == 0) {
+        hyoujou1.image = [UIImage imageNamed:@"雪だるま.png"];
+        hyoujou2.image = [UIImage imageNamed:@"雪だるま2.png"];
+        
+    }else if (number == 1) {
+        hyoujou1.image = [UIImage imageNamed:@"雪だるま3.png"];
+        hyoujou2.image = [UIImage imageNamed:@"雪だるま4.png"];
+        
+    }else if(number == 2){
+        hyoujou1.image = [UIImage imageNamed:@"雪だるま5.png"];
+        hyoujou2.image = [UIImage imageNamed:@"雪だるま6.png"];
+        
+        
+    }else if(number == 3){
+        hyoujou2.image = [UIImage imageNamed:@"雪だるま7.png"];
+    }else{
+        number = 0;
+    }
+    if (number == 0) {
+        hyoujou1.image = [UIImage imageNamed:@"雪だるま.png"];
+        hyoujou2.image = [UIImage imageNamed:@"雪だるま.png"];
+    }
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
-
 @end

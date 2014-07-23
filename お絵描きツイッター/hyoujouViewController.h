@@ -11,6 +11,7 @@
 @interface hyoujouViewController : ViewController{
     IBOutlet UIImageView*hyoujou1;
     IBOutlet UIImageView*hyoujou2;
+    int number;
 }
 -(IBAction)next;
 @end
