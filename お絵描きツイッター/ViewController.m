@@ -79,7 +79,7 @@
     
     switch (number) {
         case 0:
-            CGContextSetLineWidth(UIGraphicsGetCurrentContext(),10.0);
+            CGContextSetLineWidth(UIGraphicsGetCurrentContext(),50.0);
             break;
         case 1:
             CGContextSetLineWidth(UIGraphicsGetCurrentContext(),4.0);
