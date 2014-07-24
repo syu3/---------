@@ -64,7 +64,7 @@
 		4BCA729819723FAB00D52114 /* ライオン　顔１.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726419723FAB00D52114 /* ライオン　顔１.png */; };
 		4BCA729919723FAB00D52114 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726519723FAB00D52114 /* back.png */; };
 		4BCA729A19723FAB00D52114 /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726619723FAB00D52114 /* twitter.jpg */; };
-		4BCA729B19723FAB00D52114 /* test4.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726719723FAB00D52114 /* test4.PNG */; };
+		4BCA729B19723FAB00D52114 /* test4.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726719723FAB00D52114 /* test4.JPG */; };
 		4BCA729C19723FAB00D52114 /* test5.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726819723FAB00D52114 /* test5.JPG */; };
 		4BCA729D19723FAB00D52114 /* test3.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726919723FAB00D52114 /* test3.JPG */; };
 		4BCA729E19723FAB00D52114 /* test2.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 4BCA726A19723FAB00D52114 /* test2.JPG */; };
@@ -158,7 +158,7 @@
 		4BCA726419723FAB00D52114 /* ライオン　顔１.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ライオン　顔１.png"; sourceTree = "<group>"; };
 		4BCA726519723FAB00D52114 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		4BCA726619723FAB00D52114 /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpg; sourceTree = "<group>"; };
-		4BCA726719723FAB00D52114 /* test4.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test4.PNG; sourceTree = "<group>"; };
+		4BCA726719723FAB00D52114 /* test4.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4.JPG; sourceTree = "<group>"; };
 		4BCA726819723FAB00D52114 /* test5.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test5.JPG; sourceTree = "<group>"; };
 		4BCA726919723FAB00D52114 /* test3.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test3.JPG; sourceTree = "<group>"; };
 		4BCA726A19723FAB00D52114 /* test2.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test2.JPG; sourceTree = "<group>"; };
@@ -303,7 +303,7 @@
 				4BCA726419723FAB00D52114 /* ライオン　顔１.png */,
 				4BCA726519723FAB00D52114 /* back.png */,
 				4BCA726619723FAB00D52114 /* twitter.jpg */,
-				4BCA726719723FAB00D52114 /* test4.PNG */,
+				4BCA726719723FAB00D52114 /* test4.JPG */,
 				4BCA726819723FAB00D52114 /* test5.JPG */,
 				4BCA726919723FAB00D52114 /* test3.JPG */,
 				4BCA726A19723FAB00D52114 /* test2.JPG */,
@@ -427,7 +427,7 @@
 				4BCA728D19723FAB00D52114 /* green.jpeg in Resources */,
 				4BCA727619723FAB00D52114 /* sutoraipu.png in Resources */,
 				4BCFC08219728B3C005F3BDC /* 600.png in Resources */,
-				4BCA729B19723FAB00D52114 /* test4.PNG in Resources */,
+				4BCA729B19723FAB00D52114 /* test4.JPG in Resources */,
 				4BCA727919723FAB00D52114 /* スクリーンショット 2014-07-13 12.50.53.png in Resources */,
 				4BCA729519723FAB00D52114 /* haikei.jpg in Resources */,
 				4BCFC08319728B3C005F3BDC /* hosi 2.png in Resources */,

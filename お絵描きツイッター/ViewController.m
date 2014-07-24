@@ -155,7 +155,7 @@
 
     
     // 合成したいサイズを指定して、描画を開始します
-    UIGraphicsBeginImageContext(CGSizeMake(capturedImage.size.width, capturedImage.size.height));
+    UIGraphicsBeginImageContext(CGSizeMake(capturedImage.size.width, capure.size.height));
     
     // まずは最下位レイヤーにしたいスクリーンショット画像をレンダリングします。
     [capure drawAtPoint:CGPointMake(0, 0)];
